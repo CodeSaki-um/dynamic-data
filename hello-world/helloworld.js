@@ -20,14 +20,14 @@ const server = http.createServer( (request,response) => {
 
     if(request.url == "/") {
         //execute statement
-        response.writeHead(200,{"Content-Type":"text/plain"})
+        response.writeHead(200 , { "Content-Type" : "text/plain" })
     response.end("Home Page")
     }
 
 
     if(request.url == "/contact") {
         //execute statement
-        response.writeHead(200,{"Content-Type":"text/plain"})
+        response.writeHead(200, { "Content-Type" : "text/plain" })
     response.end("Contact Page")
     }
 
