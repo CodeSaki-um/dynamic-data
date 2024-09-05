@@ -4,14 +4,51 @@ const http = require('http')
 const PORT = process.env.PORT || 3000
 //3000 and 8080 r available
 
-const server = http.createServer((request,response) => {
-    console.log(request)
+const server = http.createServer( (request,response) => {
+    console.log("***********************************")
+    console.log("***********************************")
+
+    console.log(request.url)
+    console.log(request.method) //get post put delete
+    // get = read operation of database
+    // post = create "" ""
+    // put = update
+    // delete = delete
+
+
+    //how to respond to requests
+
+    if(request.url == "/") {
+        //execute statement
+        response.writeHead(200,{"Content-Type":"text/plain"})
+    response.end("Home Page")
+    }
+
+
+    if(request.url == "/contact") {
+        //execute statement
+        response.writeHead(200,{"Content-Type":"text/plain"})
+    response.end("Contact Page")
+    }
+
+    //basic conditions
+    /**
+     * equals: == because = is an assignment operator
+     * not equal: if a != b
+     * greater than: if a > b
+     * less than: if a < b
+     * greater than or equal: if a >= b
+     */
+
+
     console.log("responding to request")
-    response.writeHead(200,{"Content-Type":"text/plain"})
-    response.end("Hello World")
+    
+
+    console.log("***********************************")
+    console.log("***********************************")
 })
 
-server.listen(PORT, ()=> console.log('server started on port ${PORT}; ' + 'press Ctrl-c to terminate.....'))
+server.listen(PORT, ()=> console.log(`server started on port http://localhost:${PORT}  press ctrl + c to stop` ))
 
 // var name = "john" 
 // var age = 23.5
