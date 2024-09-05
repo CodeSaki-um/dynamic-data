@@ -2,6 +2,7 @@ const http = require('http')
 //^crucial for any server
 
 const PORT = process.env.PORT || 3000
+//3000 and 8080 r available
 
 const server = http.createServer((request,response) => {
     console.log(request)
