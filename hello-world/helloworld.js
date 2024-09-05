@@ -24,12 +24,31 @@ const server = http.createServer( (request,response) => {
     response.end("Home Page")
     }
 
-
-    if(request.url == "/contact") {
+    else if(request.url == "/contact") {
         //execute statement
         response.writeHead(200, { "Content-Type" : "text/plain" })
     response.end("Contact Page")
     }
+
+    else if(request.url == "/about") {
+        //execute statement
+        response.writeHead(200, { "Content-Type" : "text/plain" })
+    response.end("About Page")
+    }
+
+    else if(request.url == "/gallery") {
+        //execute statement
+        response.writeHead(200, { "Content-Type" : "text/html" })
+    response.end("<html><head><title>Page Title</title></head><body><h1>My first HTML response</h1></body></html>")
+    }
+
+    else{
+        response.writeHead(400, { "Content-Type" : "text/plain" })
+    response.end("Page Not Found error 400")
+
+    }
+
+
 
     //basic conditions
     /**
