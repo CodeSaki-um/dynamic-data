@@ -1,80 +1,62 @@
-const http = require('https')
+//function IS constant
+
+
+const http = require('http')
 //^crucial for any server
 
-const PORT = process.env.PORT || 3000
-//3000 and 8080 r available
+const fs = require("fs")
+
+const PORT = process.env.PORT || 8080;
+
+const functionName = (parameter1, parameter2, parameter3) => {
+    //write code to be executed by the function
+    console.log("functionName was called")
+    console.log(parameter1)
+    console.log(parameter2)
+    console.log(parameter3)
+}
+//create a function to read files and display them
+
+const displayPage = (path,res,contentType, responseCode = 200) => {
+    fs.readFile(__dirname + path , (errors, content) => {
+        if(errors){
+            res.writeHead(500,{'Content-type':'text/plain'})
+            return res.end('500 - Internal Error')
+        }
+        res.writeHead(responseCode,{"Content-Type" : contentType})
+        res.end(content)
+    })
+}
 
 const server = http.createServer( (request,response) => {
-    console.log("***********************************")
-    console.log("***********************************")
 
     console.log(request.url)
     console.log(request.method) //get post put delete
-    // get = read operation of database
-    // post = create "" ""
-    // put = update
-    // delete = delete
 
+    var path = request.url
 
-    //how to respond to requests
-
-    //response.send("Home Page") not as frequently used, but works similar
-
-    if(request.url == "/") {
-        //execute statement
-        response.writeHead(200 , { "Content-Type" : "Text/Plain" })
-    response.end("Home Page")
+    switch(path) {
+        case '':
+        case '/':
+        displayPage('/public/home.html',response, 'text/html')
+        break
+        case '/about':
+        displayPage('/public/about.html',response, 'text/html')
+        break
+        case '/contact':
+        displayPage('/public/contact.html',response, 'text/html')
+        break
+        case '/logo':
+            displayPage('/public/plate.png',response, 'image/png')
+            break
+        default:
+        displayPage('/public/404.html',response, 'text/html', 404)
+        break
     }
-
-    else if(request.url == "/contact") {
-        //execute statement
-        response.writeHead(200, { "Content-Type" : "Text/Plain" })
-    response.end("Contact Page")
-    }
-
-    else if(request.url == "/about") {
-        //execute statement
-        response.writeHead(200, { "Content-Type" : "text/plain" })
-    response.end("About Page")
-    }
-
-    else if(request.url == "/gallery") {
-        //execute statement
-        response.writeHead(200, { "Content-Type" : "text/html" })
-    response.end("<html><head><title>Page Title</title></head><body><h1>My first HTML response</h1></body></html>")
-    }
-
-    else{
-        response.writeHead(400, { "Content-Type" : "text/plain" })
-    response.end("Page Not Found error 400")
-
-    }
-
-
-
-    //basic conditions
-    /**
-     * equals: == because = is an assignment operator
-     * not equal: if a != b
-     * greater than: if a > b
-     * less than: if a < b
-     * greater than or equal: if a >= b
-     */
 
 
     console.log("responding to request")
-    
-
-    console.log("***********************************")
-    console.log("***********************************")
 })
 
 server.listen(PORT, ()=> console.log(`server started on port http://localhost:${PORT}  press ctrl + c to stop` ))
 
-// var name = "john" 
-// var age = 23.5
-// let lastName = "smith"
-// const year = 2024
-
-// javascript object notation aka json
-// var printer = { color:"black", size:"small", price:29.99}
