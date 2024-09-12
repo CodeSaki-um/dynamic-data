@@ -1,4 +1,4 @@
-const http = require('http')
+const http = require('https')
 //^crucial for any server
 
 const PORT = process.env.PORT || 3000
@@ -18,15 +18,17 @@ const server = http.createServer( (request,response) => {
 
     //how to respond to requests
 
+    //response.send("Home Page") not as frequently used, but works similar
+
     if(request.url == "/") {
         //execute statement
-        response.writeHead(200 , { "Content-Type" : "text/plain" })
+        response.writeHead(200 , { "Content-Type" : "Text/Plain" })
     response.end("Home Page")
     }
 
     else if(request.url == "/contact") {
         //execute statement
-        response.writeHead(200, { "Content-Type" : "text/plain" })
+        response.writeHead(200, { "Content-Type" : "Text/Plain" })
     response.end("Contact Page")
     }
 
