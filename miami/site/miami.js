@@ -1,7 +1,7 @@
 // imports express into our project 
 const express = require('express') 
 //create the express server inside a variable called app
-const app = express()
+const app = express('public')
 // import a package for handlebars
 const expressHandlebars = require('express-handlebars')
 // make express use the handlebars template engine
