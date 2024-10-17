@@ -1,0 +1,91 @@
+{
+    "title":"Explore Miami’s Culinary Delights",
+    "abstract":"Miami's culinary scene is a vibrant tapestry woven from diverse cultures and flavors, making it a paradise for food lovers. From street food to fine dining, the city offers a range of experiences that showcase its rich gastronomic heritage. Whether you're craving traditional Cuban dishes or innovative fusion cuisine, our culinary guide will help you navigate the best spots to satisfy your taste buds.",
+    "image":"/images/gallery/mbsky.jpg",
+    "services":[
+        {
+            "title":"Guided Food Tours",
+            "intro":"Discover local favorites with a knowledgeable guide who shares the stories behind each dish.",
+            "list":[
+                "Explore local eateries with a knowledgeable guide",
+                "Sample signature dishes from a variety of restaurants",
+                "Learn the history and cultural significance of each dish"
+            ],
+            "image":"/images/gallery/mbsky.jpg"
+        },
+        {
+            "title":"Cooking Classes",
+            "intro":"Learn to prepare iconic Miami dishes with hands-on instruction from talented chefs.",
+            "list":[
+                "Hands-on instruction from talented local chefs",
+                "Learn to prepare iconic Miami dishes (e.g., Cuban, Caribbean)",
+                "Enjoy your culinary creations at the end of the class"
+            ],
+            "image":"/images/gallery/mbsky.jpg"
+        },
+        {
+            "title":"Private Dining Experiences",
+            "intro":"Enjoy exclusive meals prepared by top chefs in unique settings.",
+            "list":[
+                "Exclusive meals in unique settings (e.g., beachside, rooftop)",
+                "Customizable menus to suit your preferences",
+                "Personalized service from top chefs"
+            ],
+            "image":"/images/gallery/mbsky.jpg"
+        },
+        {
+            "title":"Catering Services",
+            "intro":"Indulge in Miami’s flavors at your events with tailored catering options.",
+            "list":[
+                "Tailored catering options for events and gatherings",
+                "Menu customization featuring local favorites",
+                "Setup, service, and cleanup included"
+            ],
+            "image":"/images/gallery/mbsky.jpg"
+        }
+    ],
+    "packages":[
+        {
+            "title":"Taste of Miami Food Tour",
+            "description":"Experience the best of Miami’s diverse culinary scene with this guided food tour. Sample signature dishes from popular local restaurants and food trucks while learning about the city’s rich food culture. Includes multiple tastings, a knowledgeable guide, and a printed guide to local eateries for future visits.",
+            "image":"/images/gallery/mbsky.jpg",
+            "price":"129 per person",
+            "duration":"4 hours"
+        },
+        {
+            "title":"Cuban Cooking Class",
+            "description":"Dive into Miami’s Cuban heritage with this hands-on cooking class. Learn to prepare traditional Cuban dishes like Ropa Vieja and Tostones, guided by a professional chef. Enjoy your culinary creations at the end of the class, along with recipes to take home.",
+            "image":"/images/gallery/mbsky.jpg",
+            "price":"99 per person",
+            "duration":"4 Hours Total"
+        },
+        {
+            "title":"Gourmet Dinner Package",
+            "description":"Dive into excitement with our Ultimate Water Adventure Package! Experience the thrill of riding a jet ski for an hour, then switch to a paddleboard for a leisurely exploration of the beautiful coastline. We also include snorkeling gear for two, so you can discover the vibrant underwater life. For those who want a guided experience, we offer an optional snorkeling tour to enhance your adventure.",
+            "image":"/images/gallery/mbsky.jpg",
+            "price":"250 per couple",
+            "duration":"6 hours"
+        },
+        {
+            "title":"Catering Experience for Events",
+            "description":"Bring the flavors of Miami to your next event with our catering services. Customize a menu featuring local favorites and dishes that cater to your guests' preferences. Includes setup, service, and cleanup to ensure a stress-free experience.",
+            "image":"/images/gallery/mbsky.jpg",
+            "price":"Starts at 499",
+            "duration":"4 hours"
+        },
+        {
+            "title":"Taste of Little Havana",
+            "description":"Immerse yourself in the vibrant flavors of Miami’s Little Havana with this culinary walking tour. Discover the rich history and culture while visiting local eateries and markets. Enjoy authentic Cuban dishes, including empanadas and pastelitos, and savor a classic Cuban coffee. Along the way, you'll meet local chefs and artisans, learning about their culinary secrets and the significance of these dishes in Miami's culture. A perfect blend of food, history, and community!",
+            "image":"/images/gallery/mbsky.jpg",
+            "price":"99 per person",
+            "duration":"3 hours"
+        },
+        {
+            "title":"Miami Foodie Bike Tour",
+            "description":"Pedal through Miami’s eclectic neighborhoods on this fun and tasty bike tour! Experience the diverse culinary scene as you stop at various food trucks, markets, and hidden gems. Sample dishes from a range of cuisines, including fresh seafood, gourmet tacos, and artisan desserts. Along the way, your guide will share stories about Miami's food culture and history. This package includes bike rental, all food samples, and plenty of laughs!",
+            "image":"/images/gallery/mbsky.jpg",
+            "price":"Starts at 120",
+            "duration":"4 hours"
+        }
+    ]
+}
