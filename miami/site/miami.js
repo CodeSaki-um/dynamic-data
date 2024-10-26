@@ -33,13 +33,6 @@ app.get('/',(request,response)=>{
         })
 })
 
-app.get('/about',(request,response)=>{
-    response.render('landing',{
-        title:"About Miami",
-        abstract:"From the Miami Marlins to the Miami Heat, there is a lot to see."
-    })
-})
-
 app.get('/beach',(request,response)=>{
     const data = require("./data/beach-data.json")
     response.render('landing',{
@@ -47,33 +40,31 @@ app.get('/beach',(request,response)=>{
     })
 })
 
-app.get('/culin',(request,response)=>{
+app.get('/culi',(request,response)=>{
+    const data = require("./data/culi-data.json")
     response.render('landing',{
-        title:"Miami is a sleepless city, vibes that last a lifetime!",
-        abstract:"Day stuff"
-    })
-})
-
-app.get('/cult',(request,response)=>{
-    console.log(gallery)
-    response.render('landing',{
-        gallery,
-        title:"This is a Gallery",
-        abstract:"A bunch of pics.",
-        image:"mbsky.jpg"
-        })
-})
-
-app.get('/nl',(request,response)=>{
-    response.render('landing',{
-        title:"About Miami's Nightlife",
-        abstract:"Club Space, Level2, and Many More Clubs Ready for You to Explore."
+        data
     })
 })
 
 app.get('/gal',(request,response)=>{
+    console.log(gallery)
     response.render('landing',{
-        title:"Gallery"
+        gallery
+    })
+})
+
+app.get('/cult',(request,response)=>{
+    const data = require("./data/cult-data.json")
+    response.render('landing',{
+        data
+        })
+})
+
+app.get('/nl',(request,response)=>{
+    const data = require("./data/nl-data.json")
+    response.render('landing',{
+        data
     })
 })
 

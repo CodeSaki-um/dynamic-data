@@ -1,7 +1,7 @@
 {
     "title":"Welcome To Miami",
     "abstract":"Miami is a vibrant city known for its stunning beaches, rich cultural diversity, and exciting nightlife. Visitors can enjoy Art Deco architecture in South Beach, explore Latin American cuisine in Little Havana, and experience world-class shopping. Miami offers a unique blend of relaxation and entertainment year-round.",
-    "image":"/images/gallery/mbsky.jpg",
+    "image":"/images/gallery/miamihp1.jpg",
     "services":[
         {
             "title":"Beaches & Water Activities",
@@ -31,7 +31,7 @@
                 "Zuma: Modern Japanese restaurant offering sushi and robata dishes in a chic riverside setting.",
                 "Versailles: Iconic Cuban restaurant in Little Havana known for traditional dishes like ropa vieja and Cuban sandwiches."
             ],
-            "image":"/images/gallery/mbsky.jpg"
+            "image":"/images/gallery/art1.jpg"
         },
         {
             "title":"Clubs",
