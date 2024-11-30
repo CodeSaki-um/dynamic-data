@@ -1,0 +1,19 @@
+{
+    "products":[
+        {
+            "id":12,
+            "name":"black shirt",
+            "price":12.99,
+            "image":"/images/black.jpg",
+            "gallery":[
+                "/images/black.jpg",
+                "/images/black.jpg",
+                "/images/black.jpg",
+                "/images/black.jpg",
+                "/images/black.jpg",
+                "/images/black.jpg"
+            ]
+        }
+        
+    ]
+}

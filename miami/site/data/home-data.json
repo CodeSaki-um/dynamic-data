@@ -11,7 +11,7 @@
                 "Fontainebleau Miami Beach: Iconic resort with modern amenities, multiple pools, and renowned restaurants like Hakkasan.",
                 "1 Hotel South Beach: Eco-friendly luxury with spacious rooms, ocean views, and sustainability-focused features."
             ],
-            "image":"/images/gallery/mbsky.jpg"
+            "image":"/images/gallery/beach7.jpg"
         },
         {
             "title":"Culinary Delights",
@@ -21,7 +21,7 @@
                 "Brunch Place",
                 "Ocean view restaurant"
             ],
-            "image":"/images/gallery/mbsky.jpg"
+            "image":"/images/gallery/restaurant5.jpg"
         },
         {
             "title":"Arts & Culture",
@@ -41,56 +41,56 @@
                 "Level 2",
                 "The Dirty Rabbit"
             ],
-            "image":"/images/gallery/mbsky.jpg"
+            "image":"/images/gallery/club.jpg"
         }
     ],
     "packages":[
         {
             "title":"Beach Lover's Package",
             "description":"Enjoy a perfect beach day with our Beach Lover's Package. Relax on comfortable beach chairs with a large umbrella for shade. Your package includes a cooler filled with refreshing snacks and drinks. Plus, get your adrenaline pumping with a guided jet ski tour along the beautiful coastline!",
-            "image":"/images/gallery/mbsky.jpg",
+            "image":"/images/gallery/beach2.jpg",
             "price":"99 per person",
             "duration":"8 hours"
         },
         {
             "title":"Culinary Adventure Package",
             "description":"Embark on a delicious journey through Miami’s diverse culinary scene! This package includes a curated food tour that takes you to some of the city’s best restaurants and food trucks. Enhance your experience with a hands-on cooking class featuring Miami’s signature dishes, followed by a dinner reservation at a top-rated restaurant.",
-            "image":"/images/gallery/mbsky.jpg",
+            "image":"/images/gallery/restaurant2.jpg",
             "price":"149 per person",
             "duration":"4 Hours Total"
         },
         {
             "title":"Arts & Culture Experience Package",
             "description":"Immerse yourself in Miami’s vibrant arts and culture with this engaging package. Start with tickets to a local art festival or gallery exhibition. Enjoy a guided walking tour of Miami’s iconic street art, and finish the day with access to a live performance or cultural event.",
-            "image":"/images/gallery/mbsky.jpg",
+            "image":"/images/gallery/miami5.jpg",
             "price":"118 per person",
             "duration":"2 hours"
         },
         {
             "title":"Complete Miami Experience Package",
             "description":"Experience the best of Miami with our Complete Miami Experience Package. This three-day itinerary covers stunning beaches, delectable dining, and vibrant cultural events. Enjoy comfortable accommodations at a centrally located hotel, with transportation options for easy exploration.",
-            "image":"/images/gallery/mbsky.jpg",
+            "image":"/images/gallery/miami4.jpg",
             "price":"399 per person",
             "duration":"3 days"
         },
         {
             "title":"Miami Nightlife Experience Package",
             "description":"Dive into Miami's legendary nightlife with this exciting package! Enjoy VIP access to two of the hottest nightclubs, complete with a pre-party dinner at a trendy restaurant. Your night continues with a guided nightlife tour, stopping at popular bars and lounges, and bottle service at one of the clubs.",
-            "image":"/images/gallery/mbsky.jpg",
+            "image":"/images/gallery/night10.jpg",
             "price":"199 per person",
             "duration":"All night"
         },
         {
             "title":"Romantic Getaway Package",
             "description":"Treat your special someone to a memorable romantic getaway in Miami! Enjoy a luxurious beachfront hotel stay with an ocean view. Indulge in a sunset dinner for two at a top-rated restaurant, and unwind with a relaxing couples massage at a local spa.",
-            "image":"/images/gallery/mbsky.jpg",
+            "image":"/images/gallery/restaurant10.jpg",
             "price":"499 per couple",
             "duration":"5 Hours"
         },
         {
             "title":"Everglades Airboat Adventure",
             "description":"Experience the wild beauty of the Everglades with an exciting airboat tour! This package includes transportation from Miami to the Everglades, where you'll embark on a thrilling ride through the wetlands, spotting alligators, exotic birds, and lush vegetation. After your airboat adventure, enjoy a guided nature walk to learn more about the unique ecosystem. This package provides a fantastic opportunity to connect with Florida's natural beauty and wildlife!",
-            "image":"/images/gallery/mbsky.jpg",
+            "image":"/images/gallery/beach6.jpg",
             "price":"120 per couple",
             "duration":"4 Hours"
         }

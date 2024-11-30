@@ -1,0 +1,69 @@
+{
+    "title":"Explore The Klawset Supply's Vast Array of Colors",
+    "image":"/images/gallery/hppic.png",
+
+    "product":[
+            {
+                "id": 1,
+                "title":"Press-on Set - 19.99",
+                "image":"/images/gallery/polish.png"
+            },
+            {
+                "id": 2,
+                "title":"Press-on Set - 19.99",
+                "image":"/images/gallery/polish.png"
+            },
+            {
+                "id": 3,
+                "title":"Press-on Set - 19.99",
+                "image":"/images/gallery/polish.png"
+            },
+            {
+                "id": 4,
+                "title":"Press-on Set - 19.99",
+                "image":"/images/gallery/polish.png"
+            },
+            {
+                "id": 5,   
+                "title":"Press-on Set - 19.99",
+                "image":"/images/gallery/polish.png"
+            },
+            {
+                "id": 6,
+                "title":"Press-on Set - 19.99",
+                "image":"/images/gallery/polish.png"
+            },
+            {
+                "id": 7,
+                "title":"Press-on Set - 19.99",
+                "image":"/images/gallery/polish.png"
+            },
+            {
+                "id": 8,
+                "title":"Press-on Set - 19.99",
+                "image":"/images/gallery/polish.png"
+            },
+            {
+                "id": 9,
+                "title":"Press-on Set - 19.99",
+                "image":"/images/gallery/polish.png"
+            },
+            {
+                "id": 10,
+                "title":"Press-on Set - 19.99",
+                "image":"/images/gallery/polish.png"
+            },
+            {
+                "id": 11,
+                "title":"Press-on Set - 19.99",
+                "image":"/images/gallery/polish.png"
+            },
+            {
+                "id": 12,
+                "title":"Press-on Set - 19.99",
+                "image":"/images/gallery/polish.png"
+            }
+        
+        ]
+}
+   

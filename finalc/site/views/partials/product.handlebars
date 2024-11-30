@@ -1,0 +1,15 @@
+<div class="row gallery">
+                {{#each data.product}}
+            <div class="col-3 galleryItem">
+                    <div class="card" id="{{this.id}}">
+                        <img src="{{this.image}}" class="card-img-top" alt="Paws crossed with hands crossed over them">
+                        <div class="card-body" >
+                            <h5 class="card-title">{{this.title}}</h5>
+                            <p class="card-text">{{this.price}}</p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="/details">Item Details</button>
+                        </div>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+            </div>
