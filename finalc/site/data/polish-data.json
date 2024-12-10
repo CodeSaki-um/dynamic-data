@@ -1,67 +1,80 @@
 {
     "title":"Explore The Klawset Supply's Vast Array of Colors",
     "image":"/images/gallery/hppic.png",
+    "abstract":"Discover our vibrant collection of gel polishes, delivering long-lasting color and a glossy finish.",
 
     "product":[
             {
-                "id": 1,
-                "title":"Press-on Set - 19.99",
-                "image":"/images/gallery/polish.png"
-            },
-            {
-                "id": 2,
-                "title":"Press-on Set - 19.99",
-                "image":"/images/gallery/polish.png"
-            },
-            {
-                "id": 3,
-                "title":"Press-on Set - 19.99",
-                "image":"/images/gallery/polish.png"
-            },
-            {
-                "id": 4,
-                "title":"Press-on Set - 19.99",
-                "image":"/images/gallery/polish.png"
-            },
-            {
-                "id": 5,   
-                "title":"Press-on Set - 19.99",
-                "image":"/images/gallery/polish.png"
-            },
-            {
-                "id": 6,
-                "title":"Press-on Set - 19.99",
-                "image":"/images/gallery/polish.png"
-            },
-            {
-                "id": 7,
-                "title":"Press-on Set - 19.99",
-                "image":"/images/gallery/polish.png"
-            },
-            {
-                "id": 8,
-                "title":"Press-on Set - 19.99",
-                "image":"/images/gallery/polish.png"
-            },
-            {
-                "id": 9,
-                "title":"Press-on Set - 19.99",
-                "image":"/images/gallery/polish.png"
-            },
-            {
                 "id": 10,
-                "title":"Press-on Set - 19.99",
-                "image":"/images/gallery/polish.png"
+                "title":"Full Gel Polish Set - 99.99",
+                "image":"/images/gallery/polish.png",
+                "description":"Full stunning gel polish set of 78 colors. Includes top and base coat."
             },
             {
-                "id": 11,
-                "title":"Press-on Set - 19.99",
-                "image":"/images/gallery/polish.png"
+                "id": 20,
+                "title":"Top and Base Coat Set - 10.99",
+                "image":"/images/gallery/tb.png",
+                "description":"Gel top and base coat set. No wipe polish."
             },
             {
-                "id": 12,
-                "title":"Press-on Set - 19.99",
-                "image":"/images/gallery/polish.png"
+                "id": 30,
+                "title":"Primer & Dehydrator - 10.99",
+                "image":"/images/gallery/prideh.png",
+                "description":"This perfect pair will get your nails properly prepped for any nail adhesion."
+            },
+            {
+                "id": 40,
+                "title":"Pantone 158 Polish - 6.99",
+                "image":"/images/gallery/orange.png",
+                "description":"Pantone 158 will get you in the perfect summer mood to move and groove."
+            },
+            {
+                "id": 50,   
+                "title":"Pantone 158 Polish - 6.99",
+                "image":"/images/gallery/orange.png",
+                "description":"Pantone 158 will get you in the perfect summer mood to move and groove."
+            },
+            {
+                "id": 60,
+                "title":"Pantone 158 Polish - 6.99",
+                "image":"/images/gallery/orange.png",
+                "description":"Pantone 158 will get you in the perfect summer mood to move and groove."
+            },
+            {
+                "id": 70,
+                "title":"Pantone 158 Polish - 6.99",
+                "image":"/images/gallery/orange.png",
+                "description":"Pantone 158 will get you in the perfect summer mood to move and groove."
+            },
+            {
+                "id": 80,
+                "title":"Pantone 158 Polish - 6.99",
+                "image":"/images/gallery/orange.png",
+                "description":"Pantone 158 will get you in the perfect summer mood to move and groove."
+            },
+            {
+                "id": 90,
+                "title":"Pantone 3435 Polish - 6.99",
+                "image":"/images/gallery/green.png",
+                "description":"Pantone 3435 will get you in the perfect green mood to match any feeling or season."
+            },
+            {
+                "id": 100,
+                "title":"Pantone 3435 Polish - 6.99",
+                "image":"/images/gallery/green.png",
+                "description":"Pantone 3435 will get you in the perfect green mood to match any feeling or season."
+            },
+            {
+                "id": 101,
+                "title":"Pantone 3435 Polish - 6.99",
+                "image":"/images/gallery/green.png",
+                "description":"Pantone 3435 will get you in the perfect green mood to match any feeling or season."
+            },
+            {
+                "id": 102,
+                "title":"Pantone 3435 Polish - 6.99",
+                "image":"/images/gallery/green.png",
+                "description":"Pantone 3435 will get you in the perfect green mood to match any feeling or season."
             }
         
         ]

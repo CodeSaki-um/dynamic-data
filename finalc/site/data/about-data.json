@@ -1,4 +1,41 @@
 {"title":"About The Klawset Supply",
-    "abstract" :"nedijwncjk.",
-    "image":"/images/gallery/hppic2.png"
+    "abstract" :"At The Klawset, we believe that beautiful nails should be effortless, stylish, and accessible for everyone. Our premium press-on nails are designed for comfort, durability, and a flawless look in minutes. Whether you're preparing for a special occasion or just want to elevate your everyday style, our collection offers a variety of designs to match any mood. With easy application and long-lasting wear, we’re here to bring you the perfect nails without the hassle of salon visits. Embrace the beauty of effortless glam with The Klawset.",
+    "image": "/images/gallery/hppic2.png",
+    
+    "accord":[
+        {
+            "title":"Humble Beginnings",
+            "intro":"Our journey started with a simple passion for nails and a desire to provide high-quality products to fellow enthusiasts. What began as a small, local venture in a modest storefront has grown into a trusted name in the nail supply industry. Rooted in hard work, dedication, and a commitment to customer satisfaction, we’ve built our business by listening to our customers and offering only the best tools, polishes, and accessories. Every step of the way, we’ve remained true to our humble roots, always striving to empower both professionals and DIY lovers to create beautiful nail art.",
+            "list":[
+                "Zero clients",
+                "Zero Money",
+                "Infinite Confidence"
+            ],
+            "image":"/images/gallery/nail3.png"
+        },
+        {
+            "title":"Mission Statement",
+            "intro":"Our mission is to empower every nail artist, from aspiring DIY enthusiasts to seasoned professionals, by providing high-quality products and exceptional customer service. We strive to inspire creativity, promote self-expression, and ensure the highest standards in the nail care industry. With a focus on innovation, reliability, and education, we aim to be the trusted partner in every nail journey, helping our customers bring their artistic visions to life, one nail at a time.",
+            "list":[
+                "Minimal Waste",
+                "Maximum Satisfaction",
+                "Professional Quality"
+            ],
+            "image":"/images/gallery/nail5.png"
+        },
+        {
+            "title":"Where We Are Today",
+            "intro":"From our humble beginnings, we’ve grown into a thriving nail supply destination, known for our exceptional product range and customer-first approach. Today, we proudly offer a wide selection of premium nail products, from tools and polishes to accessories and equipment, trusted by both professionals and enthusiasts alike. Our commitment to quality and innovation continues to drive us forward as we expand our reach, serving a growing community of nail artists who rely on us for the latest trends and reliable supplies. We’re proud of how far we’ve come, but we’re even more excited about where we’re headed.",
+            "list":[
+                "Over 200 reocurring clients.",
+                "Reaching news goals each month.",
+                "Expanding to physical locations in 2025"
+            ],
+            "image":"/images/gallery/nail6.png"
+        }
+    ],
+    
+    "gallery":[
+
+    ]
 }

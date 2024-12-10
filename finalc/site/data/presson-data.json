@@ -1,61 +1,81 @@
 
     {
         "title":"Explore The Klawset Supply's Vast Array of Klaw-sets",
-        "abstract":"Promo text maybe",
+        "abstract":"Shop our stylish press-on nail sets, offering easy application and a flawless, salon-quality finish.",
         "image":"/images/gallery/hppic.png",
     
         "product":[
             {
-                
+                "id": 11,
                 "title":"Press-on Set - 19.99",
-                "description":"ejncje",
+                "description":"Effortlessly stylish press-on nails for a quick, flawless manicure anytime.",
                 "image":"/images/gallery/presson.png"
             },
             {
+                "id": 22,
                 "title":"Press-on Set - 19.99",
+                "description":"Get salon-quality nails in minutes with our premium press-on sets.",
+                "image":"/images/gallery/nail1.png"
+            },
+            {
+                "id": 33,
+                "title":"Press-on Set - 19.99",
+                "description":"Easy-to-apply press-on nails that deliver long-lasting beauty and comfort.",
+                "image":"/images/gallery/nail2.png"
+            },
+            {
+                "id": 44,
+                "title":"Press-on Set - 19.99",
+                "description":"Transform your nails with our trendy press-on sets in various designs.",
+                "image":"/images/gallery/nail3.png"
+            },
+            {
+                "id": 55,
+                "title":"Press-on Set - 19.99",
+                "description":"Perfect for any occasion, our press-on nails offer a chic, polished look.",
+                "image":"/images/gallery/nail4.png"
+            },
+            {
+                "id": 66,
+                "title":"Press-on Set - 19.99",
+                "description":"Durable, comfortable, and stylish press-on nails for a flawless finish every time.",
                 "image":"/images/gallery/presson.png"
             },
             {
+                "id": 77,
                 "title":"Press-on Set - 19.99",
+                "description":"Instant glam with press-on nails that stay put and look stunning.",
+                "image":"/images/gallery/nail1.png"
+            },
+            {
+                "id": 88,
+                "title":"Press-on Set - 19.99",
+                "description":"Achieve the perfect manicure with our high-quality press-on nail sets.",
+                "image":"/images/gallery/nail2.png"
+            },
+            {
+                "id": 99,
+                "title":"Press-on Set - 19.99",
+                "description":"No time for a salon? Try our quick, easy press-on nails for a polished look.",
+                "image":"/images/gallery/nail3.png"
+            },
+            {
+                "id": 1010,
+                "title":"Press-on Set - 19.99",
+                "description":"Gorgeous, long-lasting press-on nails that give you a salon-perfect finish at home.",
+                "image":"/images/gallery/nail4.png"
+            },
+            {
+                "id": 1111,
+                "title":"Press-on Set - 19.99",
+                "description":"Effortless elegance with press-on nails that are easy to apply and last longer.",
                 "image":"/images/gallery/presson.png"
             },
             {
+                "id": 1212,
                 "title":"Press-on Set - 19.99",
-                "image":"/images/gallery/presson.png"
-            },
-            {
-                
-                "title":"Press-on Set - 19.99",
-                "image":"/images/gallery/presson.png"
-            },
-            {
-                "title":"Press-on Set - 19.99",
-                "image":"/images/gallery/presson.png"
-            },
-            {
-                "title":"Press-on Set - 19.99",
-                "image":"/images/gallery/presson.png"
-            },
-            {
-                "title":"Press-on Set - 19.99",
-                "image":"/images/gallery/presson.png"
-            },
-            {
-                
-                "title":"Press-on Set - 19.99",
-                "image":"/images/gallery/presson.png"
-            },
-            {
-                "title":"Press-on Set - 19.99",
-                "image":"/images/gallery/presson.png"
-            },
-            {
-                "title":"Press-on Set - 19.99",
-                "image":"/images/gallery/presson.png"
-            },
-            {
-                "title":"Press-on Set - 19.99",
-                "image":"/images/gallery/presson.png"
+                "description":"Add a pop of style to your nails with our trendy and durable press-on sets.",
+                "image":"/images/gallery/nail1.png"
             }
         
         ]

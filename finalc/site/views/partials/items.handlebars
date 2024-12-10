@@ -1,0 +1,11 @@
+<div class="row owl-theme owl-carousel owl-packages">
+{{#each data.items}}
+    <div class="card" style="width: 18rem;">
+    <img src="{{this.image}}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5>{{this.title}}</h5>
+            <p class="card-text">{{this.description}}</p>
+        </div>
+    </div>
+{{/each}}
+</div>

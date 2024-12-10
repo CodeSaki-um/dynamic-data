@@ -1,0 +1,17 @@
+<table class="table table-success table-striped">
+<tr>
+    <th>Item</th>
+    <th>Price</th>
+    <th>Actions</th>
+</tr>    
+{{#each product}}
+<tr>
+    <td>{{this.title}}</td>
+    <td>{{this.price}}</td>
+    <td>
+        <a href="/">View Details</a>
+        </td>    
+</tr>
+{{/each}}
+</table>
+{{!-- I tried using the logic backwards. But I couldnt seem to figure it out --}}

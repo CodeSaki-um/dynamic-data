@@ -1,25 +1,67 @@
 {
-    "title":"The Klawset Supply",
-    "image":"/images/gallery/hppic2.png",
+    "title":"Featured Products & Supplies",
+    "abstract":"Welcome to The Klawset, your go-to destination for stunning, hassle-free nails! Our collection of premium press-on nails is designed to give you salon-quality results in the comfort of your own home. With a wide range of trendy styles and sizes, you can easily find the perfect set to suit any occasion. Easy to apply and built to last, our press-on nails offer the perfect combination of convenience, style, and long-lasting beauty. Say goodbye to complicated manicures and hello to effortless glam with The Klawset!",
+
+    "image":[
+        "/images/gallery/nail.png",
+        "/images/gallery/naill.png"
+    ],
+
+
+    "items":[
+        {
+                "title":"Pantone 158 Polish - 6.99",
+                "image":"/images/gallery/orange.png",
+                "description":"Pantone 158 will get you in the perfect summer mood to move and groove."
+        },
+        {
+            "title":"Press-on Set - 19.99",
+                "description":"A press-on nail set for easy, stylish application with durable, long-lasting designs and comfort.",
+                "image":"/images/gallery/nail5.png"
+        },
+        {
+            "title":"Nail Drill Set - 69.99",
+            "image":"/images/gallery/supply.png",
+            "description":"Professional nail drill kit comes with its built-in 3000mAh rechargeable battery."
+        },
+        {
+            "id": 2,
+            "title":"Top and Base Coat Set - 10.99",
+            "image":"/images/gallery/tb.png",
+            "description":"Gel top and base coat set. No wipe polish."
+        },
+        {
+            "title":"Press-on Set - 19.99",
+            "image":"/images/gallery/nail3.png",
+            "description":"A press-on nail set for easy, stylish application with durable, long-lasting designs and comfort."
+        },
+        {
+            
+            "title":"Professional UV Lamp - 19.99",
+            "image":"/images/gallery/uv.png",
+            "description":"Professional UV lamp comes with type C charging cable and cures for 120 seconds with 3 different settings."
+        }
+    ],
 
     "product":[
         {
-            "id": 10,
-            "title":"Gel Nail Polishs",
+            "id": 111,
+            "title":"Gel Nail Polish",
             "image":"/images/gallery/polish.png"
         },
         {
-            "id": 20,
+            "id": 222,
             "title":"Press-on Sets",
             "image":"/images/gallery/presson.png"
         },
         {
-            "id": 30,
+            "id": 333,
             "title":"Nail Supplies",
             "image":"/images/gallery/supply.png"
         },
 
-        {"title":"Cart Checkout",
+        {"id": 444,
+        "title":"Cart Checkout",
          "image":"/images/gallery/abtpic.png"
         }
     ]

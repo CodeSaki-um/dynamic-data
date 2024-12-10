@@ -1,18 +1,27 @@
 {
     "images": [
-        {"url":"/images/gallery/polish.jpg",
+            {"url":"/images/gallery/abtpic.png",
+            "title":"image title 1"},
+
+            {"url":"/images/gallery/nail1.png",
             "title":"image title 1"},
         
-            {"url":"/images/gallery/polish.jpg",
+            {"url":"/images/gallery/supply.png",
             "title":"image title 1"},
 
-            {"url":"/images/gallery/polish.jpg",
+            {"url":"/images/gallery/tb.png",
             "title":"image title 1"},
 
-            {"url":"/images/gallery/polish.jpg",
+            {"url":"/images/gallery/orange.png",
             "title":"image title 1"},
 
-            {"url":"/images/gallery/polish.jpg",
+            {"url":"/images/gallery/nail2.png",
+            "title":"image title 1"},
+
+            {"url":"/images/gallery/uv.png",
+            "title":"image title 1"},
+
+            {"url":"/images/gallery/nail4.png",
             "title":"image title 1"}
     ]
 }

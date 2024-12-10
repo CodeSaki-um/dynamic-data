@@ -1,59 +1,80 @@
 {
     "title":"Explore The Klawset Supply's Vast Array of Supplies",
-    "abstract":"Promo text maybe",
+    "abstract":"Explore our premium nail supplies, offering everything you need for professional-quality manicures at home.",
     "image":"/images/gallery/hppic.png",
 
     "product":[
         {
-            
-            "title":"Nail Drill Set - 69.99",
-            "image":"/images/gallery/supply.png"
+           "id": 1,     
+           "title":"Nail Drill Set - 69.99",
+            "image":"/images/gallery/supply.png",
+            "description":"Professional nail drill kit comes with its built-in 3000mAh rechargeable battery, being charged for about 2-3 hours,the efile nail drill will last up to 8-10 hours. 10 different drill bits and 6 sanding bands."
         },
         {
+            "id": 2,
             "title":"Nail Drill Set - 69.99",
-            "image":"/images/gallery/supply.png"
+            "image":"/images/gallery/supply.png",
+            "description":"Professional nail drill kit comes with its built-in 3000mAh rechargeable battery, being charged for about 2-3 hours,the efile nail drill will last up to 8-10 hours. 10 different drill bits and 6 sanding bands."
         },
         {
+            "id": 3,
             "title":"Nail Drill Set - 69.99",
-            "image":"/images/gallery/supply.png"
+            "image":"/images/gallery/supply.png",
+            "description":"Professional nail drill kit comes with its built-in 3000mAh rechargeable battery, being charged for about 2-3 hours,the efile nail drill will last up to 8-10 hours. 10 different drill bits and 6 sanding bands."
         },
         {
+            "id": 4,
             "title":"Nail Drill Set - 69.99",
-            "image":"/images/gallery/supply.png"
+            "image":"/images/gallery/supply.png",
+            "description":"Professional nail drill kit comes with its built-in 3000mAh rechargeable battery, being charged for about 2-3 hours,the efile nail drill will last up to 8-10 hours. 10 different drill bits and 6 sanding bands."
         },
         {
-            
-            "title":"Nail Drill Set - 69.99",
-            "image":"/images/gallery/supply.png"
+            "id": 5,   
+            "title":"Professional UV Lamp - 19.99",
+            "image":"/images/gallery/uv.png",
+            "description":"Professional UV lamp comes with type C charging cable and cures for 120 seconds with 3 different settings."
         },
         {
-            "title":"Nail Drill Set - 69.99",
-            "image":"/images/gallery/supply.png"
+            "id": 6,
+            "title":"Professional UV Lamp - 19.99",
+            "image":"/images/gallery/uv.png",
+            "description":"Professional UV lamp comes with type C charging cable and cures for 120 seconds with 3 different settings."
         },
         {
-            "title":"Nail Drill Set - 69.99",
-            "image":"/images/gallery/supply.png"
+            "id": 7,
+            "title":"Professional UV Lamp - 19.99",
+            "image":"/images/gallery/uv.png",
+            "description":"Professional UV lamp comes with type C charging cable and cures for 120 seconds with 3 different settings."
         },
         {
-            "title":"Nail Drill Set - 69.99",
-            "image":"/images/gallery/supply.png"
+            "id": 8,
+            "title":"Professional UV Lamp - 19.99",
+            "image":"/images/gallery/uv.png",
+            "description":"Professional UV lamp comes with type C charging cable and cures for 120 seconds with 3 different settings."
         },
         {
-            
-            "title":"Nail Drill Set - 69.99",
-            "image":"/images/gallery/supply.png"
+            "id": 9,
+            "title":"Professional Hand File - 7.99",
+            "image":"/images/gallery/file.png",
+            "description":"Professional hand file comes with 5 hand files, 10 different grits in total."
         },
         {
-            "title":"Nail Drill Set - 69.99",
-            "image":"/images/gallery/supply.png"
+            "id": 10,
+            "title":"Professional Hand File - 7.99",
+            "image":"/images/gallery/file.png",
+            "description":"Professional hand file comes with 5 hand files, 10 different grits in total."
         },
         {
-            "title":"Nail Drill Set - 69.99",
-            "image":"/images/gallery/supply.png"
+            "id": 11,
+            "title":"Professional Hand File - 7.99",
+            "image":"/images/gallery/file.png",
+            "description":"Professional hand file comes with 5 hand files, 10 different grits in total."
         },
         {
-            "title":"Nail Drill Set - 69.99",
-            "image":"/images/gallery/supply.png"
+            "id": 12,
+            "title":"Professional Hand File - 7.99",
+            "image":"/images/gallery/file.png",
+            "description":"Professional hand file comes with 5 hand files, 10 different grits in total."
         }
     
     ]

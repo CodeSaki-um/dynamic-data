@@ -5,6 +5,10 @@ const express = require('express')
 //create the express server inside a variable called app
 const app = express()
 
+const bodyParser = require('body-parser')
+
+app.use(bodyParser.urlencoded({extended: true}))
+
 app.use(express.static('public'))
 
 // import a package for handlebars
@@ -15,23 +19,32 @@ app.engine('handlebars',expressHandlebars.engine({
     defaultLayout: 'main',
 }))
 
+//app.get('/co', handler.co)
+
 app.set('view engine','handlebars')
+
+//const handler = require('./lib/handler')
 
 const PORT = process.env.port || 3000
 //import app wide data
 const gallery = require("./data/gallery.json")
 
+app.get('/co',(req,res)=>{
+    console.log(req.query)
+})
+
 //process routes before error
 app.get('/',(request,response)=>{
     const data = require("./data/home-data.json")
-    response.render('landing',{
+    response.render('home',{
         data
         })
 })
 
 app.get('/about',(request,response)=>{
     const data = require("./data/about-data.json")
-    response.render('landing',{
+    response.render('about',{
+        gallery,
         data
     })
 })
@@ -59,6 +72,13 @@ app.get('/polish',(request,response)=>{
 
 app.get('/supply',(request,response)=>{
     const data = require("./data/supply-data.json")
+    response.render('landing',{
+        data
+    })
+})
+
+app.get('/cart',(request,response)=>{
+    const data = require("./data/cart-data.json")
     response.render('landing',{
         data
     })

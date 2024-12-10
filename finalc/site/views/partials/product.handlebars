@@ -1,15 +1,47 @@
+
+<!-- Product Gallery -->
 <div class="row gallery">
-                {{#each data.product}}
-            <div class="col-3 galleryItem">
-                    <div class="card" id="{{this.id}}">
-                        <img src="{{this.image}}" class="card-img-top" alt="Paws crossed with hands crossed over them">
-                        <div class="card-body" >
-                            <h5 class="card-title">{{this.title}}</h5>
-                            <p class="card-text">{{this.price}}</p>
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="/details">Item Details</button>
-                        </div>
-                    </div>
-                </div>
-                {{/each}}
+    {{#each data.product}}
+    <div class="col-3 galleryItem">
+        <div class="card" id="{{this.id}}">
+            <img src="{{this.image}}" class="card-img-top" alt="Product image">
+            <div class="card-body">
+                <h5 class="card-title">{{this.title}}</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">{{this.price}}</h6>
+                <a href="/cart" class="card-link">Add to Cart</a>
+                <!-- Trigger modal with product data -->
+                <button class="btn btn-link card-link" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+                        data-bs-title="{{this.title}}" 
+                        data-bs-image="{{this.image}}" 
+                        data-bs-price="{{this.price}}" 
+                        data-bs-description="{{this.description}}">
+                    Item Details
+                </button>
             </div>
-            </div>
+        </div>
+    </div>
+    {{/each}}
+</div>
+
+<!-- Modal Template -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">{{this.title}}</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="{{this.image}}" alt="" class="img-fluid">
+        <h2>{{this.price}}</h2>
+        <p>{{this.description}}</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <a href="/cart" class="card-link">Add to Cart</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
